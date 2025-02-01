@@ -8,7 +8,7 @@ const About = ({ data }) => {
   }, []);
 
   if (!data) {
-    return null; // Return early if data is not available
+    return null;
   }
 
   const {
@@ -53,7 +53,8 @@ const About = ({ data }) => {
                 <br />
                 <span>{phone}</span>
                 <br />
-                <span>{email}</span>
+                <span><a href="mailto:shadabanwar1810@gmail.com">{email}</a>
+                </span>
               </p>
             </div>
             <div className="columns download">

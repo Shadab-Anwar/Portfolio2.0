@@ -140,7 +140,7 @@ const Contact = ({ data }) => {
               <p className="address">
                 {contactName}
                 <br />
-                {contactEmail}
+                <a href="mailto:shadabanwar1810@gmail.com">Mail me</a>
                 <br />
                 <br />
                 {street} <br />

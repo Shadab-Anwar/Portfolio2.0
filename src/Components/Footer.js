@@ -24,14 +24,14 @@ const Footer = ({ data }) => {
 
             <ul className="copyright">
               <li>
-                <span style={ { color: "#fff" } }>2024 || Made by &copy; </span>
+                <span style={ { color: "#fff" } }>2025 || Made by &copy; </span>
                 <a
-                  title="Atul"
-                  href="https://linktr.ee/imatul"
+                  title="Shadab"
+                  href="https://www.linkedin.com/in/shadab-anwar/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span style={ { color: "#3d3d" } }>Atul</span>
+                  <span style={ { color: "#3d3d" } }>Shadab</span>
                 </a>
               </li>
             </ul>
