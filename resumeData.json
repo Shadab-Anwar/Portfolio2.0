@@ -1,0 +1,128 @@
+{
+  "main": {
+    "name": "Shadab Anwar",
+    "occupation": "Frontend Developer",
+    "image": "rp.jpg",
+    "bio": "Hello there! I’m Shadab, a Frontend Developer and a student at NIT Rourkela, passionate about crafting seamless and engaging web experiences. As a Technical Team member of Webwiz.NITR, the official Web Development club of NIT Rourkela, I actively contribute to several live projects, including HackOdisha, a collaborative initiative pushing innovation forward. Beyond coding, I take pride in organizing HackOdisha, fostering a dynamic tech community. Constantly learning and evolving, I thrive on building impactful solutions. Let’s connect and explore how my expertise can bring value to your next project!",
+    "contactMessage": "Get in touch with me!",
+    "email": "shadabanwar1810@gmail.com",
+    "address": {
+      "city": "Rourkela",
+      "state": "Odisha"
+    },
+    "resumeDownload": "https://drive.google.com/file/d/1slf5HbJz5AtI0t0cft6n-qxYLSzd1orF",
+    "social": [
+      {
+        "name": "twitter",
+        "url": "https://x.com/ShadabAnwa27994",
+        "className": "fa-brands fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/shadab-anwar/",
+        "className": "fa-brands fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Shadab-Anwar",
+        "className": "fa-brands fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/khan__________shab/",
+        "className": "fa-brands fa-instagram"
+      }
+    ]
+  },
+  "resume": {
+    "skillMessage": "I specialize in",
+    "education": [
+      {
+        "school": "National Institute of Technology, Rourkela - India",
+        "degree": "B.Tech",
+        "graduated": "April 2027",
+        "description": "Currently pursuing"
+      }
+    ],
+    "work": [
+      {
+        "company": "Webwiz.NITR",
+        "title": "Technical Team Member ",
+        "years": "January 2024 - Present",
+        "description": "Contributed to Webwiz.NITR, the official Web Development club of NIT Rourkela, by building and enhancing live projects. Developed dynamic user interfaces using React.js, Next.js, and Tailwind CSS. Collaborated with teams to integrate APIs for seamless functionality. Led deployment strategies to ensure scalability and reliability."
+      },
+      {
+        "company": "HackOdisha 4.0",
+        "title": "Organiser and Technical Team Member ",
+        "years": "June 2024 - October 2024",
+        "description": "Built robust, cross-platform web pages and interactive components to enhance the HackOdisha 4.0 website. Led PR efforts, onboarded partners like IIT Kharagpur, and implemented innovative strategies to boost event visibility. Played a key role in organizing a successful hackathon with 2500+ participants, ensuring smooth operations."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Firebase, Clerk",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript, HTML, CSS",
+        "level": "70%"
+      },
+      {
+        "name": "React, Redux, NextJS",
+        "level": "75%"
+      },
+      {
+        "name": "Material-UI, Tailwind CSS",
+        "level": "70%"
+      },
+      {
+        "name": "Git, GitHub",
+        "level": "85%"
+      },
+      {
+        "name": "AWS, Render, Vercel",
+        "level": "85%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "News.ly (Next JS, React JS, JavaScript, Tailwind CSS, Clerk, API's)",
+        "category": "Web Application",
+        "image": "Capture1.PNG",
+        "url": "https://github.com/Shadab-Anwar/NEWS.LY_NEW"
+      },
+      {
+        "title": "HackOdisha4.0 (Next JS, React JS, JavaScript, Tailwind CSS)",
+        "category": "web application",
+        "image": "Capture2.PNG",
+        "url": "https://www.hackodisha.com/"
+      },
+      {
+        "title": "ClassHub (React JS, JavaScript, Tailwind CSS, FirebaseAuth, FirestoreDatabase)",
+        "category": "Web Application",
+        "image": "Capture3.PNG",
+        "url": "https://class-hub-umber.vercel.app/home"
+      },
+      {
+        "title": "WebGallery (HTML, CSS, Javascript)",
+        "category": "Web Application",
+        "image": "Capture4.PNG",
+        "url": "https://shadab-anwar.github.io/WEBWIZZ_TASK_/"
+      },
+      {
+        "title": "HackOdisha3.0-Clone (Next js, React js, Tailwind CSS)",
+        "category": "Clone",
+        "image": "Capture5.PNG",
+        "url": "https://github.com/Shadab-Anwar/Hackodisha4.0-demo"
+      },
+      {
+        "title": "Portfolio (React js, Tailwind CSS)",
+        "category": "Portfolio",
+        "image": "Capture6.PNG",
+        "url": "https://portfolio2-0-three-xi.vercel.app/"
+      }
+    ]
+  }
+}
