@@ -15,22 +15,22 @@
       {
         "name": "twitter",
         "url": "https://x.com/ShadabAnwa27994",
-        "className": "fa fa-twitter"
+        "className": "fa-brands fa-twitter"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/shadab-anwar/",
-        "className": "fa fa-linkedin"
+        "className": "fa-brands fa-linkedin"
       },
       {
         "name": "github",
         "url": "https://github.com/Shadab-Anwar",
-        "className": "fa fa-github"
+        "className": "fa-brands fa-github"
       },
       {
         "name": "instagram",
         "url": "https://www.instagram.com/khan__________shab/",
-        "className": "fa fa-instagram"
+        "className": "fa-brands fa-instagram"
       }
     ]
   },

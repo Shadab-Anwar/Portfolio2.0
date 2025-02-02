@@ -1,6 +1,5 @@
 import TypeWriter from "react-typewriter";
 import ParticlesBg from "particles-bg";
-import { Fade } from "react-reveal";
 
 const Header = ({ data }) => {
   if (!data) {
@@ -64,28 +63,27 @@ const Header = ({ data }) => {
         </ul>
       </nav>
 
-      <Fade clear duration={1200}>
+
         <div className="row banner">
           <div className="banner-text">
-            <Fade bottom duration={1200}>
+          
               <h1 className="responsive-headline">
                 <TypeWriter typing={1}>
                   {name ? `I'm ${name}.` : null}
                 </TypeWriter>
               </h1>
-            </Fade>
-            <Fade bottom duration={1200}>
+    
               <h3>
+        
                 Based in India. <span>{occupation}</span> {description}.
               </h3>
-            </Fade>
+
             <hr />
-            <Fade bottom duration={2000}>
+        
               <ul className="social">{renderSocialLinks()}</ul>
-            </Fade>
+    
           </div>
         </div>
-      </Fade>
 
       <p className="scrolldown">
         <a className="smoothscroll" href="#about">

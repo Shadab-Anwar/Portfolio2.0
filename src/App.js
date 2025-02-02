@@ -1,4 +1,6 @@
 import { useEffect, useState, lazy, Suspense } from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 import { Bars } from "react-loader-spinner";
 
 import "./App.css";

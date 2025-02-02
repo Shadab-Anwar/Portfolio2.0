@@ -1,4 +1,4 @@
-import { Slide } from "react-reveal";
+import { motion } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -59,7 +59,11 @@ const Resume = ({ data }) => {
 
   return (
     <section id="resume">
-      <Slide left duration={1300}>
+      <motion.div
+        initial={{ x: -50, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1.3 }}
+      >
         <div className="row education">
           <div className="three columns header-col">
             <h1>
@@ -78,9 +82,13 @@ const Resume = ({ data }) => {
             </div>
           </div>
         </div>
-      </Slide>
+      </motion.div>
 
-      <Slide left duration={1300}>
+      <motion.div
+        initial={{ x: -50, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1.3 }}
+      >
         <div
           className="row work"
           data-aos="fade-down-right"
@@ -95,9 +103,13 @@ const Resume = ({ data }) => {
 
           <div className="nine columns main-col">{renderWork()}</div>
         </div>
-      </Slide>
+      </motion.div>
 
-      <Slide left duration={1300}>
+      <motion.div
+        initial={{ x: -50, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1.3 }}
+      >
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
@@ -113,7 +125,7 @@ const Resume = ({ data }) => {
             </div>
           </div>
         </div>
-      </Slide>
+      </motion.div>
     </section>
   );
 };

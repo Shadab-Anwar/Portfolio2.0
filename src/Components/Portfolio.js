@@ -1,4 +1,4 @@
-import { Fade } from "react-reveal";
+import { motion } from "framer-motion";
 
 const Portfolio = ({ data }) => {
   if (!data || !data.projects || data.projects.length === 0) {
@@ -9,7 +9,13 @@ const Portfolio = ({ data }) => {
     const projectImage = `images/portfolio/${project.image}`;
 
     return (
-      <div key={project.title} className="columns portfolio-item">
+      <motion.div
+        key={project.title}
+        className="columns portfolio-item"
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.2 }}
+      >
         <div
           className="item-wrap"
           data-aos="zoom-in"
@@ -34,13 +40,17 @@ const Portfolio = ({ data }) => {
             </div>
           </a>
         </div>
-      </div>
+      </motion.div>
     );
   });
 
   return (
     <section id="portfolio">
-      <Fade left duration={1000} distance="40px">
+      <motion.div
+        initial={{ opacity: 0, x: -40 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+      >
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>Check Out Some of My Works.</h1>
@@ -53,7 +63,7 @@ const Portfolio = ({ data }) => {
             </div>
           </div>
         </div>
-      </Fade>
+      </motion.div>
     </section>
   );
 };
