@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Shadab-Anwar/Portfolio2.0/static/css/main.0e6348cb.css",
-    "main.js": "/Shadab-Anwar/Portfolio2.0/static/js/main.4dea256f.js",
+    "main.js": "/Shadab-Anwar/Portfolio2.0/static/js/main.c597cabc.js",
     "static/js/368.c4c1b91b.chunk.js": "/Shadab-Anwar/Portfolio2.0/static/js/368.c4c1b91b.chunk.js",
     "static/js/678.eeb7dfc9.chunk.js": "/Shadab-Anwar/Portfolio2.0/static/js/678.eeb7dfc9.chunk.js",
     "static/js/410.e6b07ed6.chunk.js": "/Shadab-Anwar/Portfolio2.0/static/js/410.e6b07ed6.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/fa-v4compatibility.woff2": "/Shadab-Anwar/Portfolio2.0/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/Shadab-Anwar/Portfolio2.0/index.html",
     "main.0e6348cb.css.map": "/Shadab-Anwar/Portfolio2.0/static/css/main.0e6348cb.css.map",
-    "main.4dea256f.js.map": "/Shadab-Anwar/Portfolio2.0/static/js/main.4dea256f.js.map",
+    "main.c597cabc.js.map": "/Shadab-Anwar/Portfolio2.0/static/js/main.c597cabc.js.map",
     "368.c4c1b91b.chunk.js.map": "/Shadab-Anwar/Portfolio2.0/static/js/368.c4c1b91b.chunk.js.map",
     "678.eeb7dfc9.chunk.js.map": "/Shadab-Anwar/Portfolio2.0/static/js/678.eeb7dfc9.chunk.js.map",
     "410.e6b07ed6.chunk.js.map": "/Shadab-Anwar/Portfolio2.0/static/js/410.e6b07ed6.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.0e6348cb.css",
-    "static/js/main.4dea256f.js"
+    "static/js/main.c597cabc.js"
   ]
 }
