@@ -32,7 +32,7 @@ const App = () => {
   useEffect(() => {
     const fetchResumeData = async () => {
       try {
-        const resResumeData = await fetch("/resumeData.json");
+        const resResumeData = await fetch(process.env.PUBLIC_URL + "/resumeData.json");
         const data = await resResumeData.json();
         setResumeData(data);
         setTimeout(() => {
